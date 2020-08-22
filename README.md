@@ -9,6 +9,8 @@ For p2p node communication, server sockets are used alternatively Java JXTA prot
 
 Many features like interactive charts rely on a database connection which I did not add because I could not find a proper key-value store and so I've rather preferred to use mappers and define proxy methods
 
+![](Peek%202020-05-16%2000-34_2.gif)
+
 ## Getting Started
 
 
