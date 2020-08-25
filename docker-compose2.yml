@@ -6,7 +6,7 @@ services:
     volumes:
       - "jenkins-data:/var/jenkins_home"
       - "/home:/home"
-	  - "/var/run/docker.sock:/var/run/docker.sock"
+      - "/var/run/docker.sock:/var/run/docker.sock"
     networks:
       - jenkins-network
     ports:
