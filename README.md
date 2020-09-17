@@ -5,7 +5,7 @@ A simple blockchain written in Java
 A block is automatically mined once the memory pool is full(2500 unconfirmed transactions were reached) or when the user types any input to the console
 The block reward starts at 50 TC and halves while the difficulty increases after 25^x blocks mined, where x is the current difficulty target
 
-For p2p node communication, server sockets are used alternatively Java JXTA protocol or RabbitMQ with separate queue's per node are also valid choices
+For p2p node communication, server sockets are used alternatively JMS or RabbitMQ with separate queue's per node / Kafka with separate partitions&consumer groups are also valid choices
 
 Many features like interactive charts rely on a database connection which I did not add because I could not find a proper key-value store and so I've rather preferred to use mappers and define proxy methods
 
